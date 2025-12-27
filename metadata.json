@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Chronos News AI",
+  "description": "An autonomous AI news anchor that curates global headlines every hour using Gemini Search Grounding, featuring automated social media syndication simulations.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
