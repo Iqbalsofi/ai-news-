@@ -1,5 +1,6 @@
 
 export type Sentiment = 'bullish' | 'bearish' | 'neutral';
+export type AppView = 'hub' | 'map' | 'memory' | 'config';
 
 export interface NewsItem {
   id: string;
@@ -24,6 +25,7 @@ export interface AppConfig {
   updateIntervalMinutes: number;
   autoPostToX: boolean;
   localMode: boolean;
+  isXConnected: boolean;
 }
 
 export enum NewsTopic {
